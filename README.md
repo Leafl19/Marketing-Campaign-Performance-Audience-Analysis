@@ -18,11 +18,16 @@ The lack of correlation between Acquisition Cost and ROI suggests that simply in
 Dataset: [Cleaned Dataset](https://github.com/user-attachments/files/17333062/Cleaned_Marketing_dataset.xlsx)
 
 
-## Data Structre & INitial Checks 
+## Data Structre & Initial Checks 
 
-The initial dataset when downloaed looked clean for the msot part, i checked thru for any missing vlaues and and duplicates and i didnt find any. I had extracted some text form rows and made it its own column to make it more clear to understand. 
+The initial dataset when downloaed looked clean for the msot part, i checked thru for any missing vlaues and and duplicates and i didnt find any. I had extracted some text form rows and made it its own column to make it more clear to understand. Next i changed the columns for the conversion rate and Roi into percentages so it will be better represented.
 
 This is the original data set:
+
+![Screenshot 2024-10-10 at 2 11 08 PM](https://github.com/user-attachments/assets/d3e012ad-f59c-47be-8b13-9f3735910227)
+
+
+
 
 
 
