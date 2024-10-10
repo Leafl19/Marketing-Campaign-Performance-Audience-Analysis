@@ -4,4 +4,6 @@ This Analysis outlines the steps followed to conduct a thorough analysis of the 
 
 Tools: Python for analysis and Tableau for visualization 
 
-Dataset:[here]
+Dataset: [Cleaned Dataset](https://github.com/user-attachments/files/17333062/Cleaned_Marketing_dataset.xlsx)
+
+[Original Dataset]
