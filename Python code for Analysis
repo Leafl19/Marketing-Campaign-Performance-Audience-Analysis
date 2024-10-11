@@ -1,0 +1,49 @@
+import pandas as pd
+
+# Load the dataset
+file_path = 'Downloads/Marketing_datasettt' 
+df_new_upload = pd.read_excel('Downloads/Marketing_datasettt')
+
+# Campaign Performance Analysis
+campaign_performance_new = df_new_upload.groupby('Campaign_Type').agg({
+    'Impressions': 'mean',
+    'Clicks': 'mean',
+    'Conversion_Rate': lambda x: pd.to_numeric(x.str.replace('%', '')).mean(),
+    'ROI': lambda x: pd.to_numeric(x.str.replace('%', '')).mean()
+}).round(2)
+
+# Audience Preferences Analysis (By Age)
+age_performance_new = df_new_upload.groupby('Age').agg({
+    'Impressions': 'mean',
+    'Clicks': 'mean',
+    'Conversion_Rate': lambda x: pd.to_numeric(x.str.replace('%', '')).mean(),
+    'ROI': lambda x: pd.to_numeric(x.str.replace('%', '')).mean()
+}).round(2)
+
+# Audience Preferences Analysis (By Gender)
+gender_performance_new = df_new_upload.groupby('Gender').agg({
+    'Impressions': 'mean',
+    'Clicks': 'mean',
+    'Conversion_Rate': lambda x: pd.to_numeric(x.str.replace('%', '')).mean(),
+    'ROI': lambda x: pd.to_numeric(x.str.replace('%', '')).mean()
+}).round(2)
+
+# Engagement Performance by Campaign Type
+engagement_performance_new = df_new_upload.groupby('Campaign_Type').agg({
+    'ENG_score': 'mean'
+}).round(2)
+
+
+
+print("Campaign Performance:")
+print(campaign_performance_new)
+
+print("\nAge Performance:")
+print(age_performance_new)
+
+print("\nGender Performance:")
+print(gender_performance_new)
+
+print("\nEngagement Performance:")
+print(engagement_performance_new)
+
