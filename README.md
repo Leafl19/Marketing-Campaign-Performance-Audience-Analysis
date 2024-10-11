@@ -13,7 +13,8 @@ Display and Influencer campaigns demonstrated the highest ROI and engagement sco
 Campaigns tailored to the Fashionistas and Foodies audience segments have shown slightly higher conversion rates and engagement. Focus marketing efforts on creating personalized content and campaigns for these segments to boost engagement and conversion even further.
 
 ## Tools:
-- Python 
+- Python
+- Excel
 
 Dataset: [Cleaned Dataset](https://github.com/user-attachments/files/17333062/Cleaned_Marketing_dataset.xlsx)
 
