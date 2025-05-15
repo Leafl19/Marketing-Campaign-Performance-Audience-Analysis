@@ -21,7 +21,7 @@ Dataset: [Cleaned Dataset](https://github.com/user-attachments/files/17333062/Cl
 
 ## Data Structre & Initial Checks 
 
-The initial dataset when downloaed looked clean for the msot part, i checked thru for any missing vlaues and and duplicates and i didnt find any. I had extracted some text form rows and made it its own column to make it more clear to understand. Next i changed the columns for the conversion rate and Roi into percentages so it will be better represented.
+The initial dataset when downloaed looked clean for the most part, i checked through for any missing vlaues and and duplicates and i didnt find any. I had extracted some text form rows and made it its own column to make it more clear to understand. Next i changed the columns for the conversion rate and Roi into percentages so it will be better represented.
 
 This is the original data set:
 
